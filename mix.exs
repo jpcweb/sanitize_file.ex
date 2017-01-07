@@ -33,4 +33,14 @@ defmodule SanitizeFile.Mixfile do
         {:iconv, "~> 1.0.0"}
     ]
   end
+
+  def package do
+    [
+        name: :sanitize_file,
+        files: ["lib","mix.exs"],
+        maintainers: ["Jérémie Payet (jpcweb)"],
+        licences: ["MIT"],
+        links: %{"Github" => "https://github.com/jpcweb"}
+    ]
+  end
 end
