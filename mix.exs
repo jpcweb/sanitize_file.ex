@@ -47,7 +47,7 @@ defmodule SanitizeFile.Mixfile do
         name: :sanitize_file,
         files: ["lib","mix.exs"],
         maintainers: ["Jérémie Payet (jpcweb)"],
-        licences: ["MIT"],
+        licenses: ["MIT"],
         links: %{"Github" => "https://github.com/jpcweb/sanitize_file.ex"}
     ]
   end
