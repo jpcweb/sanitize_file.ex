@@ -1,6 +1,6 @@
 defmodule SanitizeFile do
     @moduledoc """
-        Filename sanitization for Elixir. This module helps you to clean up your filename for example.
+        Sanitization for Elixir. This module helps you to clean up your filename for example.
         SanitizeFile takes a string and strip and normalizes it with :nfd, keeps number and non accent character.
 
         You can use iconv if you want to (SanitizeFile.sanitize(string,:iconv))

@@ -1,6 +1,7 @@
 # SanitizeFile
 
-**TODO: Add description**
+Sanitization for Elixir. This module helps you to clean up your filename for example.
+SanitizeFile takes a string and strip and normalizes it with :nfd, keeps number and non accent character.
 
 ## Installation
 
