@@ -34,13 +34,19 @@ defmodule SanitizeFile.Mixfile do
     ]
   end
 
-  def package do
+  defp description do
+      """
+      Sanitization for Elixir. This module helps you to clean up your filename for example.
+      """
+  end
+
+  defp package do
     [
         name: :sanitize_file,
         files: ["lib","mix.exs"],
         maintainers: ["Jérémie Payet (jpcweb)"],
         licences: ["MIT"],
-        links: %{"Github" => "https://github.com/jpcweb"}
+        links: %{"Github" => "https://github.com/jpcweb/sanitize_file.ex"}
     ]
   end
 end
