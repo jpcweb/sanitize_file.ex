@@ -1,7 +1,12 @@
 # SanitizeFile
 
 Sanitization for Elixir. This module helps you to clean up your filename for example.
+
 SanitizeFile takes a string and strip and normalizes it with :nfd, keeps number and non accent character.
+
+**Usage:**
+
+iex(1)> SanitizeFile.sanitize(" fd_fdsf-àç   à) 456454ç)'ç.jpg")
 
 ## Installation
 
